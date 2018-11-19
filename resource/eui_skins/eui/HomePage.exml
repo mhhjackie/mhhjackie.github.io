@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HomePage" width="750" height="1334" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:tween="egret.tween.*">
+	<w:Declarations>
+		<tween:TweenGroup id="test1">
+			<tween:TweenItem target="{groupani}">
+				<tween:Set>
+					<tween:props>
+						<e:Object scaleX="{1.1}" scaleY="{1.1}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="250">
+					<tween:props>
+						<e:Object scaleX="{1}" scaleY="{1}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+		<tween:TweenGroup id="test2">
+			<tween:TweenItem target="{imagebottom}">
+				<tween:Wait duration="250"/>
+				<tween:Set>
+					<tween:props>
+						<e:Object scaleX="{1.1}" scaleY="{1.1}" alpha="{1}" x="{31}" y="{91}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="200">
+					<tween:props>
+						<e:Object scaleX="{1}" scaleY="{1}" x="{31}" y="{91}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+		<tween:TweenGroup id="test3">
+			<tween:TweenItem target="{imagefont}">
+				<tween:Wait duration="450"/>
+				<tween:Set>
+					<tween:props>
+						<e:Object alpha="{11}" x="{9}" y="{103}" scaleX="{1.35}" scaleY="{1.35}"/>
+					</tween:props>
+				</tween:Set>
+				<tween:To duration="300">
+					<tween:props>
+						<e:Object scaleX="{1}" scaleY="{1}" x="{110.91}" y="{138.62}"/>
+					</tween:props>
+				</tween:To>
+			</tween:TweenItem>
+		</tween:TweenGroup>
+	</w:Declarations>
+<e:Image source="background_jpg"/>
+	<e:Group id="grpscale" width="750" height="1334" horizontalCenter="0" verticalCenter="0">
+		<e:Button id="settingbtn" label="" verticalCenter="-8" left="30" x="30" y="600" scaleX="1" scaleY="1">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="setting_png" source.down="setting_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="rankbtn" label="" right="30" verticalCenter="-8" x="603" y="600" scaleX="1" scaleY="1">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="rank_png" source.down="rank_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="sharebtn" label="" left="30" verticalCenter="139" x="30" y="747" scaleX="1" scaleY="1">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="share_png" source.down="share_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="shopbtn" label="" right="30" verticalCenter="139" x="603" y="747" scaleX="1" scaleY="1">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="shop_png" source.down="shop_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Image id="imgdrink" source="drink_png" horizontalCenter="-0.5" verticalCenter="62" x="278" y="543" scaleX="1" scaleY="1"/>
+		<e:Group id="grpStart" verticalCenter="445" horizontalCenter="0" x="169" y="1030" scaleX="1" scaleY="1">
+			<e:Button id="startbtn" label="" x="0" y="0" scaleX="1" scaleY="1">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="start_png" source.down="start_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+			<e:Image id="jiantou" source="jiantou_png" scaleX="1" scaleY="1" verticalCenter="0" right="29"/>
+			<e:Label id="lbltext" text="START" size="65" verticalCenter="0" horizontalCenter="-10" strokeColor="0x000000" stroke="1"/>
+		</e:Group>
+		<e:Group id="groupani" x="155.00000000000003" y="25" scaleX="1.1" scaleY="1.1">
+			<e:Image id="image" x="11.529999999999973" y="-23.53" source="aniimg1_png" scaleX="1" scaleY="1"/>
+			<e:Image id="image0" x="-109.15" y="33.33" scaleX="1" scaleY="1" source="aniimg2_png"/>
+		</e:Group>
+		<e:Image id="imagebottom" x="31" y="91" source="aniimg3_png" scaleX="1.1" scaleY="1.1"/>
+		<e:Image id="imagefont" x="9" y="103" source="slicerfont_png" scaleX="1.35" scaleY="1.35"/>
+		<e:Group id="grpNum" scaleX="1" scaleY="1" horizontalCenter="234" verticalCenter="87">
+			<e:Image source="shopbtnbg_png" horizontalCenter="0" verticalCenter="0"/>
+			<e:Label id="lblnum" text="1" horizontalCenter="-1.5" verticalCenter="-1.5"/>
+		</e:Group>
+	</e:Group>
+
+
+</e:Skin>

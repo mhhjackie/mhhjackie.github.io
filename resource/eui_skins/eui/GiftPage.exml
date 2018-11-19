@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GiftPage" width="750" height="1334" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="groupgray" width="750" height="1334" x="0" y="0" touchEnabled="true" touchThrough="false">
+		<e:Image id="imgtouch" x="0" y="0" scale9Grid="80,14,482,91" width="750" height="1334" source="background_jpg"/>
+		<e:Image source="giftbottom_png" verticalCenter="-152.5" horizontalCenter="0"/>
+		<e:Image source="giftbottom_png" horizontalCenter="-210" verticalCenter="39.5"/>
+		<e:Image source="giftbottom_png" horizontalCenter="210" verticalCenter="39.5"/>
+		<e:Image source="giftbottom_png" bottom="365" horizontalCenter="0"/>
+		<e:ProgressBar id="progressgift" x="172.83000000000004" y="160.84" skinName="skins.ProgressBarSkin" width="380" height="47" scaleX="1" scaleY="1" value="0"/>
+		<e:Image source="giftbox_png" left="85" verticalCenter="-483"/>
+		<e:Image id="img1" source="propwen_png" verticalCenter="-266" horizontalCenter="-13"/>
+		<e:Image id="img2" verticalCenter="-74" horizontalCenter="197" source="propwen_png"/>
+		<e:Image id="img4" verticalCenter="-74" horizontalCenter="-227" source="propwen_png"/>
+		<e:Image id="img3" verticalCenter="130" horizontalCenter="-11" source="propwen_png"/>
+		<e:Image x="651.82" y="27.46" source="shopgold_png" scaleX="1" scaleY="1"/>
+		<e:Image id="imggou1" scaleX="1" scaleY="1" source="gou_png" left="236" top="127" visible="false"/>
+		<e:Image id="imggou2" scaleX="1" scaleY="1" source="gou_png" left="333" top="127" visible="false"/>
+		<e:Image id="imggou3" scaleX="1" scaleY="1" source="gou_png" left="426" top="127" visible="false"/>
+		<e:Label id="lblgold" text="334" x="548.5200000000001" y="42.85" size="50" scaleX="1" scaleY="1" anchorOffsetX="1"/>
+		<e:Group id="groupgift" x="236" y="103">
+			<e:Image x="0" y="0" source="gifticon_png" width="60" height="60" scaleX="1" scaleY="1"/>
+			<e:Label id="lblnum" text="1" x="22" y="6.97" scaleX="1" scaleY="1" anchorOffsetX="1"/>
+		</e:Group>
+	</e:Group>
+	<e:Group id="nextgroup" horizontalCenter="0" scaleX="1" scaleY="1" bottom="120">
+		<e:Image id="imgbtn" x="0" y="0" scaleX="1" scaleY="1" source="start_png"/>
+		<e:Label id="lbltext" text="NEXT LEVEL" size="50" textColor="0xFFFFFF" scaleX="1" scaleY="1" verticalCenter="0" right="84" anchorOffsetX="1"/>
+		<e:Image scaleX="1" scaleY="1" source="jiantou_png" verticalCenter="0" right="12"/>
+	</e:Group>
+
+</e:Skin>

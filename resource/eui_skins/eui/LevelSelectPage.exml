@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FruitLevelSelectPage" width="750" height="1334" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+<e:Image source="background_jpg" scaleX="1"/>
+	<e:Group id="grpscale" width="750" height="1334" horizontalCenter="0" verticalCenter="0">
+		<e:Group id="grouptop" horizontalCenter="0" top="38" x="37" y="38" scaleX="1" scaleY="1">
+			<e:Image id="imgtop" y="111.97999999999999" source="redtop_png" scaleX="0.9000000000000001" scaleY="0.9000000000000001" horizontalCenter="0" x="-247.00000000000006"/>
+			<e:Label text="MODE CHOICE" y="126.88" size="45" horizontalCenter="0.5"/>
+		</e:Group>
+		<e:Group id="groupclassic" scaleX="1" scaleY="1" horizontalCenter="6" verticalCenter="-140">
+			<e:Image x="0" y="0" source="rankblue_png"/>
+			<e:Image x="7.19" y="-39.44" source="dare_png"/>
+			<e:Image x="295.95" y="-32.47" source="greenselect_png"/>
+			<e:Label text="CLASSIC" x="112.82" y="27.09" size="45"/>
+			<e:Image y="259.63" source="roundrect_png" horizontalCenter="0"/>
+			<e:Label id="levelclassic" text="LEVEL 3" size="60" bottom="65" horizontalCenter="-40"/>
+			<e:Image source="jiantou_png" right="150" bottom="61"/>
+		</e:Group>
+		<e:Group id="groupdare" scaleX="1" scaleY="1" horizontalCenter="6" verticalCenter="352">
+			<e:Image x="0" y="0" source="rankgreen_png"/>
+			<e:Image x="7.19" y="-39.44" source="classic_png"/>
+			<e:Image x="295.95" y="-32.47" source="redselect_png"/>
+			<e:Label text="DARE" x="137.06" y="39.21" size="45"/>
+			<e:Image y="259.63" source="roundrect_png" horizontalCenter="0"/>
+			<e:Label id="leveldare" text="LEVEL 3" size="60" bottom="65" horizontalCenter="-40"/>
+			<e:Image source="jiantou_png" right="150" bottom="61"/>
+		</e:Group>
+		<e:Button id="btngohome" label="" scaleX="1" scaleY="1" left="30" top="39">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="back_png" source.down="back_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+
+</e:Skin>

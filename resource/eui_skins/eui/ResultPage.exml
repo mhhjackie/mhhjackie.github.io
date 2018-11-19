@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ResultPage" width="750" height="1334" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="groupgray" width="750" height="1334" x="0" y="0" touchEnabled="true" touchThrough="false">
+		<e:Image id="imgbg" x="0" y="0" scale9Grid="80,14,482,91" width="750" height="1334" source="background_jpg"/>
+		<e:Image id="warpCir" y="212.1" scaleX="1" scaleY="1" source="lotteryround_png" horizontalCenter="0"/>
+		<e:Group id="groupturn1" horizontalCenter="0" verticalCenter="-115">
+			<e:Image id="inCir" x="0" y="0" scaleX="1" scaleY="1" source="lottery1_png"/>
+			<e:Image id="gift1" x="142" y="139.38" scaleX="0.75" scaleY="0.75" source="knife8_png"/>
+			<e:Image id="gift2" x="442" y="176.65" scaleX="1" scaleY="1" source="shopgold2_png"/>
+			<e:Image id="gift3" x="442" y="441" scaleX="1" scaleY="1" source="shopgold2_png"/>
+			<e:Image id="gift4" x="183" y="443" scaleX="1" scaleY="1" source="shopgold2_png"/>
+			<e:Label id="lbl1" text="+35" size="40" scaleX="1" scaleY="1" anchorOffsetX="1" rotation="48.1" x="421" y="202" stroke="3"/>
+			<e:Label id="lbl2" text="+50" size="40" scaleX="1" scaleY="1" anchorOffsetX="1" rotation="135.73" x="475" y="426" stroke="3"/>
+			<e:Label id="lbl3" text="+75" size="40" scaleX="1" scaleY="1" anchorOffsetX="1" rotation="227" x="267" y="482" stroke="3"/>
+		</e:Group>
+		<e:Group id="groupturn2" horizontalCenter="0" verticalCenter="-115" visible="false">
+			<e:Image id="inCir0" x="0" y="0" scaleX="1" scaleY="1" source="lottery2_png"/>
+			<e:Image id="gift5" x="125.82" y="172.71" scaleX="0.75" scaleY="0.75" source="knife8_png"/>
+			<e:Image id="gift6" x="472.3" y="216.78" scaleX="1" scaleY="1" source="shopgold2_png"/>
+			<e:Image id="gift7" x="306.2" y="477.36" scaleX="1" scaleY="1" source="shopgold2_png"/>
+			<e:Label id="lbl4" text="+35" x="455" y="241" size="40" stroke="3" rotation="53.58"/>
+			<e:Label id="lbl5" text="+75" x="377" y="471" size="40" stroke="3" rotation="178.01"/>
+		</e:Group>
+		<e:Group id="groupbtn" scaleX="1" scaleY="1" y="963" horizontalCenter="0">
+			<e:Image id="imgbtn" verticalCenter="0" source="shopadd_png" left="0"/>
+			<e:Label id="lblbtntext" text="SPIN" size="40" anchorOffsetX="1" scaleX="1" scaleY="1" right="90" verticalCenter="0"/>
+			<e:Image source="jiantou_png" verticalCenter="0" right="19"/>
+		</e:Group>
+		<e:Image scaleX="1" scaleY="1" source="lotteryabove_png" horizontalCenter="3" verticalCenter="-112"/>
+	</e:Group>
+	<e:Label id="lblgold" text="334" x="548.52" y="54.97" size="50" anchorOffsetX="1" locked="true"/>
+	<e:Image x="651.82" y="36.55" source="shopgold_png" locked="true"/>
+
+</e:Skin>

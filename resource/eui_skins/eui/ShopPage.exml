@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FruitShopPage" width="750" height="1334" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+<e:Image source="background_jpg" scaleX="1"/>
+	<e:Group id="grpscale" width="750" height="1334" horizontalCenter="0" verticalCenter="0">
+		<e:Image source="shoptarget_png" scaleX="1" scaleY="1" left="106" top="94"/>
+		<e:Group id="grouptop" horizontalCenter="0" top="278" x="37" y="278" scaleX="1" scaleY="1">
+			<e:Image id="imgtop" y="111.97999999999999" source="redtop_png" scaleX="0.9000000000000001" scaleY="0.9000000000000001" horizontalCenter="0" x="-247.00000000000006"/>
+			<e:Label text="KNIFE SHOP" y="126.88" size="45" horizontalCenter="0.5"/>
+		</e:Group>
+		<e:Button id="btngohome" label="" scaleX="1" scaleY="1" left="30" top="39">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="back_png" source.down="back_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Label id="lblgold" text="334" size="50" anchorOffsetX="1" scaleX="1" scaleY="1" right="119" top="55"/>
+		<e:Image source="shopgold_png" scaleX="1" scaleY="1" right="34" top="37"/>
+		<e:Group id="groupbuy" width="0" height="0" scaleX="1" scaleY="1" bottom="216" left="50">
+			<e:Button id="leftbtn" label="" scaleX="0.6" scaleY="0.8" left="0" top="0">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="shopbuy_png" source.down="shopbuy_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+			<e:Label text="BUY" x="61.09" y="43.16" scaleX="1" scaleY="1" size="45"/>
+			<e:Image x="197.21" y="12.07" scaleX="0.9" scaleY="0.9" source="shopgold2_png"/>
+			<e:Label id="leftnum" text="250" x="193.72" y="79.64" scaleX="1" scaleY="1" size="36"/>
+		</e:Group>
+		<e:Group id="groupadd" width="0" height="0" scaleX="1" scaleY="1" right="332" bottom="216">
+			<e:Button id="rightbtn" label="" scaleX="0.93" scaleY="1.13" left="0" top="0">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="shopadd_png" source.down="shopadd_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+			<e:Image x="186.59" y="24.19" scaleX="1.1" scaleY="1.1" source="shopgold2_png"/>
+			<e:Label id="rightnum" text="+35" x="102.82" y="43.28" scaleX="1" scaleY="1" size="45"/>
+			<e:Image x="18.7" y="36.76" scaleX="1" scaleY="1" source="shopblueadd_png"/>
+		</e:Group>
+		<e:Scroller id="scrollershop" width="600" height="470" horizontalCenter="10" y="524" x="85" scaleX="1" scaleY="1">
+			<e:Group>
+			<e:List id="shopList" width="600" height="950" scrollEnabled="true" touchEnabled="true" x="0" y="0" scaleX="1" scaleY="1">
+				<e:layout>
+				<e:TileLayout/>
+				</e:layout>
+			</e:List>
+			<e:layout>
+				<e:TileLayout/>
+			</e:layout>
+			</e:Group>
+		</e:Scroller>
+	</e:Group>
+
+</e:Skin>

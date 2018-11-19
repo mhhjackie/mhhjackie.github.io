@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FruitSettingPage" width="750" height="1334" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+<e:Image source="background_jpg" scaleX="1" horizontalCenter="0" verticalCenter="0"/>
+	<e:Group id="grpscale" width="750" height="1334" horizontalCenter="0" verticalCenter="0">
+		<e:Button id="btngohome" label="" scaleX="1" scaleY="1" left="30" top="39">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="back_png" source.down="back_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Group id="grouptop" horizontalCenter="0" top="155" x="-166.00000000000003" y="-235.99999999999997" scaleX="1" scaleY="1">
+			<e:Image id="imgtop" y="111.97999999999999" source="redtop_png" scaleX="0.9000000000000001" scaleY="0.9000000000000001" horizontalCenter="0" x="-247.00000000000006"/>
+			<e:Label text="SETTING" y="129.91" size="45" horizontalCenter="0"/>
+		</e:Group>
+		<e:Label text="SOUND" size="45" scaleX="1" scaleY="1" left="140" verticalCenter="-55"/>
+		<e:Label text="SHAKE" size="45" scaleX="1" scaleY="1" left="140" verticalCenter="128"/>
+		<e:ToggleSwitch id="togglesound" label="ON" right="130" x="279" scaleX="1" scaleY="1" verticalCenter="-55">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="switchbtn1_png" source.down="switchbtn2_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:ToggleSwitch>
+		<e:ToggleSwitch id="toggleshake" label="ON" right="130" x="279" scaleX="1" scaleY="1" verticalCenter="128">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="switchbtn1_png" source.down="switchbtn2_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:ToggleSwitch>
+	</e:Group>
+
+</e:Skin>

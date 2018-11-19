@@ -1,0 +1,38 @@
+{
+  "engineVersion": "5.2.12",
+  "compilerVersion": "5.2.12",
+  "template": {},
+  "target": {
+    "current": "web"
+  },
+  "modules": [
+    {
+      "name": "egret"
+    },
+    {
+      "name": "eui"
+    },
+    {
+      "name": "assetsmanager"
+    },
+    {
+      "name": "tween"
+    },
+    {
+      "name": "particle",
+      "path": "../libsrc"
+    },
+    {
+      "name": "game"
+    },
+    {
+      "name": "promise"
+    }
+  ],
+  "targets": {
+    "android": {
+      "appname": "FruitSlicerAndroid",
+      "packagename": "com.hhm"
+    }
+  }
+}

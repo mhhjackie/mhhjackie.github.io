@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="FruitContinuePage" width="750" height="1334" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="groupgray" width="750" height="1334" x="0" y="0" touchEnabled="true" touchThrough="false">
+		<e:Image id="imgtouch" x="0" y="0" scale9Grid="80,14,482,91" width="750" height="1334" source="background_jpg"/>
+		<e:Label text="CONTINUE？" textColor="0xf7d320" size="60" horizontalCenter="0" top="141"/>
+		<e:Label id="lbltime" text="10" size="40" horizontalCenter="0.5" top="235"/>
+		<e:Group id="btngroup" width="413" height="165" horizontalCenter="0.5" verticalCenter="356.5">
+			<e:Image source="start_png" horizontalCenter="0" bottom="-9"/>
+			<e:Image source="shopblueadd_png" scaleX="1.5" scaleY="1.5" left="28" top="37"/>
+			<e:Label text="CONTINUE" x="152.49" y="51.76" anchorOffsetY="-12.12" size="45"/>
+		</e:Group>
+		<e:Label id="lblNoThanks" text="NO THANKS" anchorOffsetY="-12.12" size="45" horizontalCenter="0.5" bottom="95"/>
+		<e:Image source="timeicon_png" horizontalCenter="73" verticalCenter="-57.5"/>
+	</e:Group>
+
+</e:Skin>

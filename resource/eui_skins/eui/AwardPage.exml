@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="AwardPage" width="750" height="1334" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="750" height="1334" x="0" y="0" touchEnabled="true" touchThrough="false">
+		<e:Image id="imgtouch" x="0" y="0" scale9Grid="80,14,482,91" width="750" height="1334" source="background_jpg"/>
+		<e:Image id="imggold1" scaleX="1" horizontalCenter="46" x="101" scaleY="1" source="shopgold_png" verticalCenter="-64" visible="false"/>
+		<e:Image id="imggold2" scaleX="1" horizontalCenter="132" x="101" scaleY="1" source="shopgold_png" verticalCenter="-62" visible="false"/>
+		<e:Image id="imggold3" scaleX="1.5" horizontalCenter="84" x="101" scaleY="1.5" verticalCenter="-71.5" source="shopgold_png" visible="false"/>
+		<e:Image id="imgtitle" scaleX="1" horizontalCenter="0" x="101" scaleY="1" verticalCenter="-447" source="redtitle_png"/>
+		<e:Image id="imgpic" scaleX="1" horizontalCenter="0" x="101" scaleY="1" source="1_1_png" verticalCenter="60"/>
+		<e:Label id="lbllevel" text="LEVEL 4 COMPLETED！" size="40" textColor="0xffff00" horizontalCenter="10" top="156"/>
+		<e:Label id="lblscore" text="+35" size="75" scaleX="1" scaleY="1" anchorOffsetX="1" verticalCenter="-58.5" left="235" visible="false"/>
+	</e:Group>
+	<e:Image x="651.82" y="27.46" source="shopgold_png" scaleX="1" scaleY="1"/>
+	<e:Label id="lblgold" text="334" x="548.5200000000001" y="42.85" size="50" scaleX="1" scaleY="1" anchorOffsetX="1"/>
+
+</e:Skin>
